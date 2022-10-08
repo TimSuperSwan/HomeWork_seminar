@@ -135,7 +135,7 @@ namespace СеминарCS
 
         //_Задача_8
 
-        Console.WriteLine("Введите число");
+        /*Console.WriteLine("Введите число");
         int Num = int.Parse(Console.ReadLine());
         int index = 1;
         while (index<Num)
@@ -154,11 +154,125 @@ namespace СеминарCS
             index++;
         }
         }
+        */
+
+        //Задача 1 с 2ого семинара
+
+        /*int Num = new Random ().Next(100,1000);
+
+        int Num1 = Num%10;
+        int Num2 = Num/100;
+        Console.WriteLine($"Мы загадали {Num}");
+        Console.Write($"{Num2}{Num1}");
+        */
+
+        //Задача 2 с 2ого семинара
+
+
+        /*Console.WriteLine("Введите 2 числа");
+        int Num1 = int.Parse(Console.ReadLine());
+        int Num2 = int.Parse(Console.ReadLine());
+
+        if (Num1%Num2==0)
+        {
+           Console.WriteLine($"Первое число кратно второму");
+        }
+        else
+        {
+            Console.WriteLine($"Остаток от деления первого числа на второе= {Num1%Num2}");
+        }
+        */
+        
+        //Задача 3 из 2 семинара
+
+        /*
+        Console.WriteLine("Введите число");
+        int Num1 = int.Parse(Console.ReadLine());
+        if ((Num1%7==0) && (Num1%23==0))
+        {
+            Console.WriteLine($"Число {Num1} кратно 7 и 23");
+        }
+        else
+        {
+            Console.WriteLine($"Число {Num1} не кратно 7 и 23");
+        }
+
+        */
+
+        // Задача 4 из 2 семинара
+
+        /*
+        Console.WriteLine("Введите 2 числа");
+        int Num1 = int.Parse(Console.ReadLine());
+        int Num2 = int.Parse(Console.ReadLine());
+
+        if ((Num1/Num2==Num2)||(Num2/Num1==Num1))
+        {
+            Console.WriteLine("Одно число является квадратом другого");
+        }
+        else
+        {
+            Console.WriteLine("Ни одно число не является квадратом другого");
+        }
+        */
+
+
+        // ____ДОМШНЕЕ ЗАДАНИЕ К СЕМИНАРУ 2____
+
+        // Задача 10
+
+        /*
+        Console.WriteLine("Введите треъзначное число");
+        int Num1 = int.Parse(Console.ReadLine());
+        int Num2 = (Num1/10)%10;
+        Console.WriteLine($"{Num2}");
+        */
+
+
+        // Задача 13
+
+        /*
+        Console.WriteLine("Введите трехзначное число");
+        int Num1 = int.Parse(Console.ReadLine());
+        if (Num1>99)
+        {
+            Console.WriteLine($"{Num1%10}");
+        }
+        else
+        {
+            Console.WriteLine("Число не трехзначное");
+        }
+        */
+
+        // Задача 15
+
+        /*
+        Console.WriteLine("Введите день недели числом, от 1 до 7");
+        int Num1 = int.Parse(Console.ReadLine());
+
+        if (Num1 >= 1 && Num1 <= 7)
+        {
+            if (Num1 == 6 || Num1 == 7)
+            {
+                Console.WriteLine("Указанный день недели является выходным");
+            }
+            else
+            {
+                Console.WriteLine("Указанный день недели не является выходным");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Вы ввели число вне диапозона от 1 до 7");
+        }
+        */
+
 
         
 
-    
-        
-    
+        }
     }
+        
+    
+    
 }
