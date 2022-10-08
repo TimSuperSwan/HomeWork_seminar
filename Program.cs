@@ -224,8 +224,15 @@ namespace СеминарCS
         /*
         Console.WriteLine("Введите треъзначное число");
         int Num1 = int.Parse(Console.ReadLine());
-        int Num2 = (Num1/10)%10;
-        Console.WriteLine($"{Num2}");
+        if (Num1<1000 && Num1>99)
+        {
+            int Num2 = (Num1/10)%10;
+            Console.WriteLine($"{Num2}");
+         }
+        else
+        {
+            Console.WriteLine("Введено не трехзначное число");
+        }
         */
 
 
@@ -268,7 +275,7 @@ namespace СеминарCS
         */
 
 
-        
+
 
         }
     }
