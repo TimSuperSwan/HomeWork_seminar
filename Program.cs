@@ -276,7 +276,23 @@ namespace СеминарCS
 
 
 
+        //________________________Семинар 3____________________________________
 
+        //Пишем метод который считает сумму всех чисел до N
+
+        Console.WriteLine("Введите число");
+        int A = int.Parse(Console.ReadLine());
+
+        int GetSum(limit) {
+            int sum = 0;
+            for (int i =1; i < limit; i++)
+            {
+                sum = sum + i;
+            }
+            return sum;
+        }
+
+        Console.WriteLine($"Сумма чисел от 1 до {A} = {GetSum}");
         }
     }
         
